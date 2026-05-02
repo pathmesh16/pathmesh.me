@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Selected UX projects by Pathmesh Jayamurugan — research, evaluation, interaction design, and applied design thinking." />
+  <title>Work — Pathmesh Jayamurugan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23C74E2C'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"></span>
+        Pathmesh
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" id="navToggle">≡</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Index</a></li>
+        <li><a href="projects.html" class="active">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="mailto:pathmeshjk@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header container">
+    <div class="eyebrow fade-in">Six projects · 2024 – 2026</div>
+    <h1 class="page-title fade-in delay-1">Work, with the <em>thinking</em> shown.</h1>
+    <p class="page-subtitle fade-in delay-2">
+      Each project below is documented from the UX perspective — the questions that framed it, the methods used, the laws and principles invoked, and the design decisions that followed. Visuals are kept secondary to the reasoning that produced them.
+    </p>
+  </header>
+
+  <!-- ============================================
+       01 — AGRI-TECH FARM MONITOR
+       ============================================ -->
+  <article class="project-block container" id="agri-tech">
+    <div class="project-grid">
+      <aside class="project-side">
+        <div class="project-num">Project 01 / 06</div>
+        <h2 class="project-title">Agri-Tech<br/><em>Farm Monitor</em></h2>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="project-meta-label">Course</span>
+            <span class="project-meta-value">IDM05 — Independent Portfolio</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Role</span>
+            <span class="project-meta-value">Solo · End-to-end UX</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Method</span>
+            <span class="project-meta-value">Double Diamond</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Platform</span>
+            <span class="project-meta-value">Mobile (iOS / Android)</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Year</span>
+            <span class="project-meta-value">2025 – 26</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="project-body">
+        <p class="project-lede">
+          A remote-first farm monitoring app for part-time farmers — urban professionals who inherit or manage land alongside a full-time job. The design challenge was to compress complex agronomy into "a few focused minutes per day."
+        </p>
+
+        <section class="project-section">
+          <div class="project-section-title">The User Problem</div>
+          <p>
+            The user research surfaced a population that doesn't fit the traditional agritech persona: a 25-to-40-year-old urban professional managing inherited or secondary land. They suffer from <strong>time poverty</strong> — over 60-hour combined work weeks — and live at distance from the farm, relying on local workers for fragmented updates. They miss early warnings on pests, water stress, and soil health, which compound into yield loss and emotional stress.
+          </p>
+          <p>
+            Existing agritech apps are built for full-time, on-site experts: data-heavy dashboards and raw sensor outputs. For a time-poor, lower-expertise user, those interfaces actively work against the user's time budget. The brief: design <em>against</em> dashboard density.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Why Double Diamond</div>
+          <p>
+            I chose the Double Diamond (Design Council, 2005) because the project required <strong>two distinct phases of divergence and convergence</strong>: first to understand a user group I wasn't part of, and second to shape a product without falling into the agritech-dashboard cliché. Jumping straight into screens would have produced a prettier version of the same wrong product.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Discover — Secondary Research</div>
+          <p>
+            I synthesised peer-reviewed research on part-time farming (Song, Robinson &amp; Bardsley, 2022; Scheyett et al., 2025; Ceriani et al., 2023) and grey-literature blogs from active farmers. Key insights: only 50% of part-time farmers report a viable work-life balance; the farm carries deep emotional and inherited value, so users persist despite financial loss; structural interventions — not motivation — are the missing piece.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Define — How Might We</div>
+          <p>
+            Three HMW questions framed the convergent first diamond:
+          </p>
+          <p>
+            — How might we help time-poor farmers manage their farms in <strong>a few focused minutes a day</strong>?<br/>
+            — How might we provide <strong>trustworthy remote visibility</strong> when the user can't be on-site?<br/>
+            — How might we translate <strong>complex sensor and AI output</strong> into "do this today" guidance for non-experts?
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Develop — Ideation Methods</div>
+          <p>
+            I ran a <strong>5 Whys</strong> exercise to push past symptoms (e.g. "the farm yields less") to root causes ("the user lacks time to interpret data, not lacks data"). I then used <strong>Crazy 8s</strong> to generate eight rapid sketches across the three core themes — water management, crop &amp; pest health, and decision support — before reviewing for feasibility and user-fit.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Key UX Decisions</div>
+          <p>
+            <strong>Remote-first information architecture.</strong> The home screen is a status overview — soil moisture, weather, pump state, pest risk — surfaced as glanceable indicators, not graphs. Anything that requires interpretation is hidden one tap deep.
+          </p>
+          <p>
+            <strong>AI as translator, not author.</strong> Sensor and AI outputs are converted into plain-language prompts ("irrigate Field B before 3pm — moisture at 18%, rain unlikely"). The user approves or delegates rather than reads dashboards. This is a deliberate move from <em>raw data</em> to <em>interpreted recommendation</em> — reducing cognitive load and protecting trust.
+          </p>
+          <p>
+            <strong>Cognitive load &amp; familiar patterns.</strong> Mobile patterns (cards, tab bar, pull-to-refresh) were used deliberately rather than inventing novelty. For non-expert users under time pressure, familiarity is a feature.
+          </p>
+          <p>
+            <strong>Transparent rationale.</strong> Every recommendation surfaces a short "why" — which sensor, which threshold — so the user can build trust over time without being forced to learn agronomy.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Outcome &amp; Forward Direction</div>
+          <p>
+            The high-fidelity prototype prioritises irrigation as the lead module, with extension paths toward a "farm digital twin," predictive pest detection via drones and smart traps, and a long-term soil health score. The design justification rests on UX evidence that non-expert users benefit most from interpreted insight, transparent rationale, and familiar mobile patterns — not from richer dashboards.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Double Diamond</span>
+            <span class="tag">5 Whys</span>
+            <span class="tag">Crazy 8s</span>
+            <span class="tag">HMW</span>
+            <span class="tag">Cognitive Load</span>
+            <span class="tag">Mobile UX</span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============================================
+       02 — SAFE TECH
+       ============================================ -->
+  <article class="project-block container" id="safe-tech">
+    <div class="project-grid">
+      <aside class="project-side">
+        <div class="project-num">Project 02 / 06</div>
+        <h2 class="project-title">Safe Tech<br/><em>Emergency Alert</em></h2>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="project-meta-label">Course</span>
+            <span class="project-meta-value">IDM21 — Interaction Design</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Role</span>
+            <span class="project-meta-value">Solo · End-to-end UX</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Method</span>
+            <span class="project-meta-value">ISO 9241-210 HCD</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Platform</span>
+            <span class="project-meta-value">Mobile + Wearable</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Year</span>
+            <span class="project-meta-value">2025</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="project-body">
+        <p class="project-lede">
+          An offline-capable emergency alert and tracking system designed for low-connectivity scenarios — solo travel, remote regions, signal black-spots. Designed end-to-end through the ISO 9241-210 human-centred design cycle.
+        </p>
+
+        <section class="project-section">
+          <div class="project-section-title">Why ISO 9241-210</div>
+          <p>
+            For a safety-critical product the ISO HCD framework was the right scaffold. It enforces explicit phases — context-of-use, user requirements, design solution, evaluation — and treats the design as iterative rather than linear. For a product where misuse or false-activation has real consequences, this rigour matters more than speed.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">User Context — Designing for Distress</div>
+          <p>
+            The most important design constraint was the <strong>emotional state of the user at the moment of need</strong>. The user is panicked, possibly injured, possibly hidden, possibly silent. They cannot read instructions, choose between options, or recover from a wrong tap. The interface must therefore be designed for someone with <strong>fine motor difficulty, cognitive load, and high anxiety</strong>.
+          </p>
+          <p>
+            Literature also surfaced edge populations the design had to accommodate: hearing-impaired users for whom siren-based alerts fail; autistic users who find loud audio cues distressing; older adults who struggle with advanced settings; bystander-privacy concerns (Bowen-Forbes et al., 2024; Kummathi &amp; Tejeswar, 2023; Rajaram et al., 2025).
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Usability Requirements — Shneiderman's Five</div>
+          <p>
+            I used <strong>Shneiderman's five usability attributes</strong> as the explicit acceptance criteria for the design:
+          </p>
+          <p>
+            <strong>Time to learn.</strong> A first-time user must be able to register, add an emergency contact, and arm the SOS in under five minutes — without reading a manual.<br/>
+            <strong>Speed of performance.</strong> SOS activation must be reachable in under two seconds — a single hold-to-trigger, with hardware-button and voice fallback.<br/>
+            <strong>Rate of errors.</strong> False activation is the dominant risk. A 5-second cancellable countdown and configurable trigger delay reduce it without slowing genuine activation.<br/>
+            <strong>Retention over time.</strong> The interface uses identical interaction patterns across screens — same SOS button shape, same colour, same placement — so muscle memory survives weeks of non-use.<br/>
+            <strong>Subjective satisfaction.</strong> A calm-but-urgent visual tone, immediate haptic feedback after every action, and reassuring language build trust during the rare moment the app is actually needed.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Task Modelling</div>
+          <p>
+            I modelled three user tasks: <em>set-up</em>, <em>emergency situation</em>, and <em>trigger SOS</em>. The model branched on connectivity state — online (app trigger via internet), satellite (offline trigger via satellite link), and fully offline (LoRaWAN smart-pole relay or bystander-app SOS forwarding). Each branch terminates in a verifiable outcome — message delivered, location received, contact notified — rather than just a button-press.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Multimodal Triggers</div>
+          <p>
+            A safety app cannot rely on the user being able to look at the screen. The design therefore includes <strong>four parallel trigger modes</strong>: in-app SOS button, hardware-button double-press, voice activation ("yell / shout" detection), and wearable double-press. Each is tuned to a different distress scenario — visible threat, hidden assault, vehicle collision, immobilising injury.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Accessibility as a First-Order Concern</div>
+          <p>
+            High contrast, large tap targets (well above the 44pt baseline), redundant audio + haptic feedback, and short jargon-free copy. The wearable supports tactile vibration patterns so the device works for users who cannot hear or see the alert confirmation.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Outcome</div>
+          <p>
+            The deliverable was a low-fidelity wireframe set, a clickable Figma prototype, and a documented design rationale traceable back to ISO 9241-210 phase outputs and Shneiderman's five attributes. Every screen choice — from the SOS button's central placement to the calming-but-urgent orange — is justified by a specific user-context constraint.
+          </p>
+          <div class="tag-list">
+            <span class="tag">ISO 9241-210</span>
+            <span class="tag">Shneiderman's 5</span>
+            <span class="tag">Task Modelling</span>
+            <span class="tag">Accessibility</span>
+            <span class="tag">Multimodal</span>
+            <span class="tag">Safety-Critical UX</span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============================================
+       03 — KHAN ACADEMY
+       ============================================ -->
+  <article class="project-block container" id="khan-academy">
+    <div class="project-grid">
+      <aside class="project-side">
+        <div class="project-num">Project 03 / 06</div>
+        <h2 class="project-title">Khan Academy<br/><em>Usability Study</em></h2>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="project-meta-label">Course</span>
+            <span class="project-meta-value">Design &amp; Evaluation Project</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Role</span>
+            <span class="project-meta-value">Researcher &amp; Designer</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Method</span>
+            <span class="project-meta-value">Mixed Methods Evaluation</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Platform</span>
+            <span class="project-meta-value">Mobile (iOS / Android)</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Year</span>
+            <span class="project-meta-value">2025</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="project-body">
+        <p class="project-lede">
+          A small-scale usability evaluation of the Khan Academy mobile app, combining qualitative and quantitative methods to surface friction in navigation, content search, and accessibility — followed by a justified redesign.
+        </p>
+
+        <section class="project-section">
+          <div class="project-section-title">Why Mixed Methods</div>
+          <p>
+            A single evaluation method gives a partial picture. <strong>Think-aloud</strong> exposes the <em>cognitive process</em> behind a task — what the user expected, where their mental model diverged from the system's. <strong>SUS</strong> gives a comparable, normalised <em>perceived-usability score</em>. Used together, they let me triangulate: I could see <em>where</em> users struggled (think-aloud) and <em>how badly it felt overall</em> (SUS). Either alone would have left blind spots.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Think-Aloud Protocol</div>
+          <p>
+            I designed four tasks that exercised the app's most frequented pathways:
+          </p>
+          <p>
+            — Find a Career-related course (search &amp; navigation).<br/>
+            — Open and start a lesson within a course (content depth).<br/>
+            — Return to dashboard and locate newly available courses (recovery and discovery).<br/>
+            — Find profile/account settings (system visibility).
+          </p>
+          <p>
+            Following Boren &amp; Ramey (2000) I kept the moderator's voice minimal — neutral prompts only — to avoid biasing the user's verbalisation. Every hesitation, expectation gap, and recovery attempt was noted with a timestamp.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">SUS — Quantifying the Subjective</div>
+          <p>
+            John Brooke's <strong>System Usability Scale</strong> (1986) was applied immediately after each test session. Its alternating positive/negative phrasing reduces acquiescence bias, and its single normalised score lets me compare the existing app against the redesigned version on the same axis. Nielsen Norman Group describes SUS as the most robust standardised usability questionnaire for small samples (Laubheimer, 2018) — exactly the constraint here.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Formative vs Summative</div>
+          <p>
+            Testing was conducted <strong>formatively</strong> — early enough that findings could feed back into design decisions, not just evaluate finished screens. Per the Nielsen Norman Group: "formative evaluations are diagnostic; they help fix problems while there's still time." A summative pass came later to verify that the redesign moved SUS in the right direction.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Sample &amp; Justification</div>
+          <p>
+            Five participants — students aged 18–30 — were chosen following the small-sample logic of Six &amp; Macefield (2016): five users uncover roughly 80% of usability issues for any given task. The sample mixed expert app-users with first-time encounter users to capture both novice friction and experienced-user inefficiencies.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Findings → Redesign Decisions</div>
+          <p>
+            Recurring friction clustered around three areas: <strong>search returned unexpected category collisions</strong>; <strong>the navigation back to dashboard was inconsistent across screens</strong>; and <strong>account settings were buried under non-obvious icon choices</strong>. The redesigned wireframes addressed each: clearer search filters with visible category scoping, a persistent dashboard anchor in the tab bar, and an explicit "Profile" label rather than an avatar-only icon (per Nielsen's heuristic on visibility of system status and recognition over recall).
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Outcome</div>
+          <p>
+            A redesigned interface backed by a quantitative SUS uplift and qualitative confirmation that the previously failed tasks were now completed without hesitation. Critically, every redesign decision is traceable to a specific finding — there are no "improvements" without evidence.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Think-Aloud</span>
+            <span class="tag">SUS</span>
+            <span class="tag">Formative Testing</span>
+            <span class="tag">Heuristic Evaluation</span>
+            <span class="tag">Wireframing</span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============================================
+       04 — SCRUM TOOL
+       ============================================ -->
+  <article class="project-block container" id="scrum-tool">
+    <div class="project-grid">
+      <aside class="project-side">
+        <div class="project-num">Project 04 / 06</div>
+        <h2 class="project-title">Scrum Tool<br/><em>Redesign</em></h2>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="project-meta-label">Course</span>
+            <span class="project-meta-value">ISM105 — Business Systems</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Role</span>
+            <span class="project-meta-value">Solo · UI &amp; UX</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Method</span>
+            <span class="project-meta-value">UX Laws &amp; Visual Principles</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Platform</span>
+            <span class="project-meta-value">Web (Desktop)</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Year</span>
+            <span class="project-meta-value">2025</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="project-body">
+        <p class="project-lede">
+          A redesign of a Scrum management tool — Product Backlog, Sprint Backlog, and Burndown Chart — applied as a deliberate exercise in invoking UX laws, Gestalt principles, and Bertin's visual variables, rather than as a free-form aesthetic redesign.
+        </p>
+
+        <section class="project-section">
+          <div class="project-section-title">Why Constrain to Principles</div>
+          <p>
+            Scrum tools accumulate features and become cognitively expensive. Rather than intuiting fixes, I treated the redesign as a structured application of <strong>codified design knowledge</strong> — UX laws, Gestalt grouping, and Bertin's visual variables. The constraint forced every decision to be defensible, not stylistic.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">UX Laws Applied</div>
+          <p>
+            <strong>Jakob's Law</strong> — users spend most of their time on other apps, so familiar Kanban patterns (To Do, In Progress, Done) were preserved, not redesigned. The existing mental model is the asset.
+          </p>
+          <p>
+            <strong>Fitts's Law</strong> — frequently-tapped targets (Add Task, Sprint switching) were enlarged and placed near natural cursor anchors. Destructive actions were intentionally smaller and farther.
+          </p>
+          <p>
+            <strong>Hick's Law</strong> — top-level choices were reduced. The original tool exposed every option at every level; the redesign hides secondary controls under progressive disclosure so first-time users aren't paralysed.
+          </p>
+          <p>
+            <strong>Tesler's Law of Conservation of Complexity</strong> — Scrum has irreducible complexity (priority, sprint mapping, status, owner, due date, files). I made an explicit choice about <em>who</em> handles which complexity: the system formats and groups it, the user only chooses meaningful values. Over-simplification would have stripped useful information; the law forced an honest trade-off.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Gestalt Principles for Grouping</div>
+          <p>
+            <strong>Proximity</strong> — navigation and search were spaced apart enough to read as separate functional groups without needing extra borders or boxes.
+          </p>
+          <p>
+            <strong>Similarity</strong> — buttons of equivalent function share shape, colour, and size; cards share an internal layout. Users learn the pattern once and reapply it everywhere.
+          </p>
+          <p>
+            <strong>Common Region</strong> — sprint columns are enclosed in soft container shapes so each sprint reads as its own unit, even when columns are scrolled adjacent. The shape does the grouping work, not the spacing alone.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Bertin's Visual Variables for Hierarchy</div>
+          <p>
+            <strong>Size</strong> distinguishes headlines from sub-headings, and primary buttons (Add, Start) from secondary ones — encoding hierarchy without colour-only signalling. <strong>Colour</strong> is used as a status channel only (priority red/amber/green, status pill), never for decoration. <strong>Shape</strong> separates interactive containers from static information. The result: the eye can locate priority, status, and action at a glance, which is exactly the workflow Scrum demands.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Core UX Principles</div>
+          <p>
+            <strong>Consistency</strong> across cards, buttons, and column structure. <strong>Hierarchy</strong> through type-size and weight rather than colour-saturation. <strong>User control</strong> — task cards are reorderable and editable inline, so the user feels they own the workflow rather than being walked through it.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Outcome</div>
+          <p>
+            The redesigned Product Backlog, Sprint Backlog, and Burndown Chart screens reduce visual noise without removing essential information. Every change traces to a named law or principle, which made the design defensible in critique and easy to extend without breaking internal logic.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Jakob's Law</span>
+            <span class="tag">Fitts's Law</span>
+            <span class="tag">Hick's Law</span>
+            <span class="tag">Tesler's Law</span>
+            <span class="tag">Gestalt</span>
+            <span class="tag">Bertin's Visual Variables</span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============================================
+       05 — BILLY THE BOOKWORM
+       ============================================ -->
+  <article class="project-block container" id="billy">
+    <div class="project-grid">
+      <aside class="project-side">
+        <div class="project-num">Project 05 / 06</div>
+        <h2 class="project-title">Wanted:<br/><em>Billy the Bookworm</em></h2>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="project-meta-label">Course</span>
+            <span class="project-meta-value">IDM04 — Design Thinking</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Role</span>
+            <span class="project-meta-value">Team of 5 · UX, Research, Build</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Method</span>
+            <span class="project-meta-value">Design Thinking (5-phase)</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Platform</span>
+            <span class="project-meta-value">Hybrid — Physical + Web</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Year</span>
+            <span class="project-meta-value">2025</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="project-body">
+        <p class="project-lede">
+          A hybrid physical-digital escape room that teaches University of Brighton students how to use the Aldrich Library — Dewey Decimal navigation, citation, self-service kiosks — through a story-driven case file rather than a tutorial.
+        </p>
+
+        <section class="project-section">
+          <div class="project-section-title">The Real Problem</div>
+          <p>
+            User research surfaced an uncomfortable truth: students <em>have</em> a library they don't know how to use. Three of five interviewed students struggled with both physical and digital navigation; three preferred the help desk over self-service tools; two could not differentiate between resource types. The library wasn't the problem — its <strong>discoverability</strong> was.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Why Design Thinking</div>
+          <p>
+            Brown's (2009) five-phase Design Thinking model — Empathise, Define, Ideate, Prototype, Test — was the right shape for an open, exploratory brief. The team didn't yet know whether the solution should be an app, a poster campaign, a tour, or something else; the divergent ideation phase was load-bearing here in a way it wouldn't be on a more constrained brief.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Empathise — Primary &amp; Secondary Research</div>
+          <p>
+            Five participants from the user pool, semi-structured interviews following the IDEO (2015) human-centred design field guide. We built affinity diagrams from the transcripts to surface pattern-clusters rather than individual quotes. In parallel, we benchmarked competitor escape rooms (UNT, UNM, ASU) and mapped their gaps — most taught navigation but missed citation; some taught citation but missed physical-library fluency. The gap we filled was <em>both</em>, in <em>one</em> experience.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Define — From Pain Points to Goals</div>
+          <p>
+            We translated each user pain point into a learning goal: navigation friction → "learn the Dewey Decimal system"; help-desk dependence → "use self-service kiosks confidently"; citation anxiety → "use Cite Them Right correctly." Each goal then became a puzzle in the escape room's narrative.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Ideate — Mind &amp; Concept Mapping</div>
+          <p>
+            A mind map of the library system surfaced touchpoints where confusion most often occurs. A concept map shaped the structure of the experience itself — narrative flow, role of player, rules, and required physical/digital resources. Together these tools translated user pain into game mechanics.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Why Hybrid (Not Pure Digital)</div>
+          <p>
+            Pure digital would have failed the brief — students need to learn the <em>physical</em> library too. Pure physical would have lost the validation loop that escape rooms need (you must <em>know</em> when a puzzle is solved). The hybrid case file lets puzzles live on paper while solutions are validated on a web app — physical engagement, digital feedback, both reinforced.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Gamification &amp; Constructive Learning</div>
+          <p>
+            Per Deterding et al. (2011) and Veldkamp et al. (2020), gamification works when learning outcomes are <strong>embedded in the game mechanics</strong>, not bolted on as quizzes. A puzzle that requires you to look up a Dewey number to find a clue is a Dewey-number-learning task disguised as a clue-hunt — exactly the constructive-learning sweet spot.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Prototype &amp; Test</div>
+          <p>
+            We started with a paper-based low-fidelity case file and a stripped-down digital companion (first three sections only) so we could test puzzle logic before committing to visual polish. Iterations were tested with users using <strong>think-aloud</strong> and <strong>SUS</strong>, with severity ratings on issues (Nielsen, 1994) so we knew what to fix first.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Outcome</div>
+          <p>
+            A working hybrid escape-room experience — printed case file with embedded clues, plus a React-based web companion that validates solutions, advances the narrative, and ends with a measurable learning outcome. Students leave knowing how to use the library, having had fun doing it.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Design Thinking</span>
+            <span class="tag">Affinity Diagrams</span>
+            <span class="tag">Gamification</span>
+            <span class="tag">Hybrid Prototype</span>
+            <span class="tag">Think-Aloud</span>
+            <span class="tag">SUS</span>
+            <span class="tag">Team UX</span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============================================
+       06 — SPATIAL ETHICS
+       ============================================ -->
+  <article class="project-block container" id="spatial-ethics">
+    <div class="project-grid">
+      <aside class="project-side">
+        <div class="project-num">Project 06 / 06</div>
+        <h2 class="project-title">Ethics in <em>AI-Driven<br/>Spatial Design</em></h2>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="project-meta-label">Course</span>
+            <span class="project-meta-value">IDM25 — Research Project</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Role</span>
+            <span class="project-meta-value">Co-author · Literature review</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Method</span>
+            <span class="project-meta-value">Systematic Review (PRISMA)</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Format</span>
+            <span class="project-meta-value">Peer-format Research Paper</span>
+          </div>
+          <div class="project-meta-row">
+            <span class="project-meta-label">Year</span>
+            <span class="project-meta-value">2025 – 26</span>
+          </div>
+        </div>
+      </aside>
+
+      <div class="project-body">
+        <p class="project-lede">
+          A peer-format systematic literature review investigating how AI reshapes ethical concerns in XR, VR, AR, and metaverse environments — and what UX practice will need to look like when "the interface" is the user's body, gaze, and surrounding space.
+        </p>
+
+        <section class="project-section">
+          <div class="project-section-title">Why This Matters for UX</div>
+          <p>
+            Spatial design breaks several assumptions that screen-based UX takes for granted. <strong>Consent becomes ambient</strong> — sensors collect behaviour from bystanders who never agreed to participate. <strong>Anonymity collapses</strong> — motion and gaze data alone are sufficient to identify a user, even without name or face. <strong>Persuasion intensifies</strong> — embodied immersion makes manipulation feel like memory. UX research that ignores these shifts will be designing on top of foundations that no longer hold.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Method — PRISMA Systematic Review</div>
+          <p>
+            We followed the <strong>PRISMA framework</strong> (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) over peer-reviewed papers published 2019–2025. The framework forced explicit inclusion criteria, search-string transparency, and screening reproducibility — turning what could have been an opinion essay into a defensible evidence synthesis. Thematic mapping was then used to identify gaps across sociological, psychological, and design perspectives.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Six Ethical Themes Identified</div>
+          <p>
+            <strong>Privacy &amp; Surveillance</strong> — gaze, gesture, and behavioural data are uniquely identifying. Traditional consent models fail in continuous-sensing environments.<br/>
+            <strong>Transparency &amp; Explainability</strong> — users can't see how AI interprets their movements or why the system responds as it does.<br/>
+            <strong>Fairness &amp; Inclusion</strong> — biased training data produces unequal experiences across demographic and ability groups.<br/>
+            <strong>Autonomy &amp; Manipulation</strong> — "immersive nudging" blurs the line between guidance and manipulation in ways the user cannot easily detect.<br/>
+            <strong>Governance &amp; Accountability</strong> — current XR is governed largely by industry self-regulation; legal frameworks lag.<br/>
+            <strong>Sustainability</strong> — energy use, device lifecycle, and e-waste are largely absent from spatial UX research, despite obvious environmental footprint.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">The Implementation Gap</div>
+          <p>
+            The review's central finding is what we called the <strong>implementation gap</strong>: the literature broadly agrees on principles — privacy, fairness, transparency, autonomy, accountability — but most frameworks remain aspirational. Concrete tools, standards, and governance mechanisms for XR are still nascent. Designers know what good looks like; they don't yet have the toolkit to deliver it.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">What This Means for Spatial UX Practice</div>
+          <p>
+            The paper recommends future work on (a) practical toolkits that operationalise ethical principles in concrete XR design decisions; (b) dynamic, context-aware consent models for continuous and bystander sensing; (c) privacy-preserving techniques for motion and gaze data evaluated against usability and immersion; (d) inclusive co-design with disabled users where accessibility is treated as a fairness intervention rather than a feature add-on; and (e) integration of environmental metrics into spatial UX research itself.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <div class="project-section-title">Why This Project</div>
+          <p>
+            Including a research paper alongside applied design work is intentional. UX is not only about screens — it's about understanding the conditions under which interfaces operate. Spatial design is where the next decade of UX will be tested, and being able to read, synthesise, and contribute to peer literature is part of being a designer rather than just a screen-maker.
+          </p>
+          <div class="tag-list">
+            <span class="tag">PRISMA</span>
+            <span class="tag">Systematic Review</span>
+            <span class="tag">XR / Spatial UX</span>
+            <span class="tag">Privacy</span>
+            <span class="tag">Ethics by Design</span>
+            <span class="tag">Research</span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <!-- CONTACT TEASE -->
+  <section class="section container">
+    <div class="contact-block">
+      <div class="contact-eyebrow">Reached the end?</div>
+      <h2 class="contact-heading">Now let's <em>build</em> something.</h2>
+      <a href="mailto:pathmeshjk@gmail.com" class="contact-email">
+        pathmeshjk@gmail.com →
+      </a>
+      <div class="contact-grid">
+        <div>
+          <div class="contact-grid-item-label">More about me</div>
+          <div class="contact-grid-item-value"><a href="about.html">about.html →</a></div>
+        </div>
+        <div>
+          <div class="contact-grid-item-label">LinkedIn</div>
+          <div class="contact-grid-item-value">
+            <a href="https://www.linkedin.com/in/pathmeshjk" target="_blank" rel="noopener">in/pathmeshjk</a>
+          </div>
+        </div>
+        <div>
+          <div class="contact-grid-item-label">Location</div>
+          <div class="contact-grid-item-value">Brighton, UK</div>
+        </div>
+        <div>
+          <div class="contact-grid-item-label">Status</div>
+          <div class="contact-grid-item-value">
+            <span class="status-dot" style="margin-right:0.4rem;"></span> Open to opportunities
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-text">© 2026 Pathmesh Jayamurugan</div>
+      <div class="footer-text">Designed &amp; built with intent.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
